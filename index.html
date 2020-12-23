@@ -1,0 +1,88 @@
+<!DOCclass html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation on Scroll</title>
+
+    <!--CSS link for Oswald Google font-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap" rel="stylesheet">
+    <!--CSS link for Animation on Scroll Library-->
+      <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <!--CSS style link-->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <header class="main-header">
+        <h1><span>Acrylic Painting</span> Gallery</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus, temporibus?</p>
+    </header>
+
+    <main class="container">
+
+        <section class="card">
+            <img src="images/acrylic 1.jpg" alt="">
+            <div>
+                <h3>Acrylic Painting One</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae molestias laboriosam non doloremque, ducimus repudiandae cum repellat reiciendis ullam error assumenda harum illum et nisi accusamus, corporis consequatur, voluptate autem.</p>
+                <a href="#" class="btn">Buy Now</a>
+            </div>
+        </section>
+
+        <section class="card" data-aos="fade-left">
+            <img src="images/acrylic 2.jpg" alt="">
+            <div>
+                <h3>Acrylic Painting Two</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae molestias laboriosam non doloremque, ducimus repudiandae cum repellat reiciendis ullam error assumenda harum illum et nisi accusamus, corporis consequatur, voluptate autem.</p>
+                <a href="#" class="btn">Buy Now</a>
+            </div>
+        </section>
+
+        <section class="card" data-aos="fade-right">
+            <img src="images/acrylic 3.jpg" alt="">
+            <div>
+                <h3>Acrylic Painting Three</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae molestias laboriosam non doloremque, ducimus repudiandae cum repellat reiciendis ullam error assumenda harum illum et nisi accusamus, corporis consequatur, voluptate autem.</p>
+                <a href="#" class="btn">Buy Now</a>
+            </div>
+        </section>
+
+        <section class="card" data-aos="fade-left">
+            <img src="images/acrylic 4.jpg" alt="">
+            <div>
+                <h3>Acrylic Painting Four</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae molestias laboriosam non doloremque, ducimus repudiandae cum repellat reiciendis ullam error assumenda harum illum et nisi accusamus, corporis consequatur, voluptate autem.</p>
+                <a href="#" class="btn">Buy Now</a>
+            </div>
+        </section>
+
+        <section class="card" data-aos="fade-right">
+            <img src="images/acrylic 5.jpg" alt="">
+            <div>
+                <h3>Acrylic Painting Five</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae molestias laboriosam non doloremque, ducimus repudiandae cum repellat reiciendis ullam error assumenda harum illum et nisi accusamus, corporis consequatur, voluptate autem.</p>
+                <a href="#" class="btn">Buy Now</a>
+            </div>
+        </section>
+
+        <section class="card" data-aos="fade-left">
+            <img src="images/acrylic 6.jpg" alt="">
+            <div>
+                <h3>Acrylic Painting Six</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae molestias laboriosam non doloremque, ducimus repudiandae cum repellat reiciendis ullam error assumenda harum illum et nisi accusamus, corporis consequatur, voluptate autem.</p>
+                <a href="#" class="btn">Buy Now</a>
+            </div>
+        </section>
+    </main>
+    <!--JAVASCRIPTh links for Animation on Scroll Library-->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            offset: 400,
+            duration: 500
+        });
+    </script>
+</body>
+</html>
